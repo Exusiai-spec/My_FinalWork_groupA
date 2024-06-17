@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" />
+    <head>
+      <title>二层</title>
+        <link rel="stylesheet" href="./WindowsCSS/window1.css">
+        <script src="./assets/js/echarts.min.js"></script>
+        <script src="./assets/js/common/jquery-1.9.1.min.js"></script>
+        <script src="./WindowsJS/JS/window7.js"></script>
+        <script src="./layui/layui.js"></script>
+        <script src="./layui/xadmin.js"></script>
+    </head>
+    <body>
+      <div class="name-title6"></div>
+      <span class="name-title6">对比</span> 
+      <script>
+          $(document).ready(function() {
+              $(".name-title6").on("click", function(){
+ 
+               xadmin.open('third','w7.html',800,475)
+              })
+          })
+          
+      </script>
+       <div id="main6"></div>
+
+       
+    </body>
+</html>

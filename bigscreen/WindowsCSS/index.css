@@ -1,0 +1,130 @@
+/* Create by gaojiye */
+@charset "utf-8";
+/*通用样式ͨ*/
+
+body{
+    background: #040f3c;
+}
+
+
+.name-title{
+    font-size:20px ;
+    color: #00ffff;
+}
+.name-title1{
+    font-size:20px ;
+    color: #00ffff;
+}
+.name-title2{
+    font-size:20px ;
+    color: #00ffff;
+}
+.name-title3{
+    font-size:20px ;
+    color: #00ffff;
+}
+.name-title4{
+    font-size:20px ;
+    color: #00ffff;
+}
+.name-title5{
+    font-size:20px ;
+    color: #00ffff;
+}
+.name-title6{
+    font-size:20px ;
+    color: #00ffff;
+}
+.name-title7{
+    font-size:20px ;
+    color: #00ffff;
+}
+.name-title8{
+    font-size:20px ;
+    color: #00ffff;
+}
+
+.table-kingdargen{
+    margin-top: 6px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.table-kingdargen>thead>tr>th{
+    border-bottom: 1px solid #0f4075;
+    padding: 2px 8px;
+    text-align: center;
+    color: #419aff;
+    font-size: 12px;
+    font-weight: normal;
+    border-top: 1px solid #0f4075!important;
+}
+.table-kingdargen tbody tr td{
+    padding: 1px 8px;
+    font-size: 12px;
+    border: none;
+    color: #fff;
+}
+.table-kingdargen tbody tr:nth-child(2n){
+    background: #1d2a42;
+}
+.table-kingdargen tbody tr:hover{
+    background: #1d2a42;
+}
+.table-kingdargen tbody tr td:nth-child(2){
+    color: #e9aa00;
+}
+.table-kingdargen tbody tr td:nth-child(3){
+    color: #53bf18;
+}
+.table-kingdargen tbody tr td:nth-child(4){
+    color: #f9504a;
+}
+.table-kingdargen tbody tr td:nth-child(5){
+    color: #12f0e9;
+}
+
+
+
+
+
+
+
+
+.table-kingdargen1{
+    margin-top: 6px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.table-kingdargen1>thead>tr>th{
+    border-bottom: 1px solid #0f4075;
+    padding: 2px 8px;
+    text-align: center;
+    color: #419aff;
+    font-size: 12px;
+    font-weight: normal;
+    border-top: 1px solid #0f4075!important;
+}
+.table-kingdargen1 tbody tr td{
+    padding: 1px 8px;
+    font-size: 12px;
+    border: none;
+    color: #fff;
+}
+.table-kingdargen1 tbody tr:nth-child(2n){
+    background: #1d2a42;
+}
+.table-kingdargen tbody tr:hover{
+    background: #1d2a42;
+}
+.table-kingdargen1 tbody tr td:nth-child(2){
+    color: #e9aa00;
+}
+.table-kingdargen1 tbody tr td:nth-child(3){
+    color: #53bf18;
+}
+.table-kingdargen1 tbody tr td:nth-child(4){
+    color: #f9504a;
+}
+.table-kingdargen1 tbody tr td:nth-child(5){
+    color: #12f0e9;
+}

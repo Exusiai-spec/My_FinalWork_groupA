@@ -1,0 +1,109 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}/*取消li自带小圆点及自带边距*/
+.box {
+	top: 210px;
+	width: 800px;
+	height: 950px;
+	overflow: hidden;
+	margin: auto;
+	position: relative;
+}
+.imgsum  {
+	width: 4000px;
+	height: 500px;
+	/*平滑过渡*/
+	transition:5s;
+	/*动画:动画名称 一共25s 动画以低速结束 规定动画播放无限次（永远）动画在奇数次（1、3、5...）正向播放，在偶数次（2、4、6...）反向播放。*/ 
+	animation: img 25s ease-out infinite alternate;
+}
+.imgsum ul li img {
+	/*添加左浮动 使图片横向排列*/
+	float: left;
+	width: 800px;
+	height: 950px;
+}
+
+@keyframes img{
+	/*设置的图片宽度为800px,所以在动画到25%时需要向左移动一个照片的宽度,
+	在50%的时候需要向左移动两个照片的宽度,
+	在75%的时候需要向左移动三个照片的宽度,等等以此类推
+	左负右正*/
+	
+	0% {
+		margin-left:0px ;
+	}
+	25% {
+		margin-left: -800px;
+	}
+	50% {
+		margin-left:  -1600px;
+	}
+	75% {
+		margin-left: -2400px;
+	}
+	100% {
+		margin-left: -3200px;
+	}
+}
+
+.yuandian {
+	
+	position: absolute;
+	bottom: 0;
+	/*修改背景颜色*/
+	background-color: #e0eefc40;
+	/*自动撑成图片尺寸的100%*/
+	left: 0;
+	right: 0;
+	/*设置高度为50px 水平居中 垂直居中*/
+	height: 50px;
+	text-align:center;
+	/*行高等于高度时就显示垂直居中*/
+	line-height: 50px;
+}
+.dot {
+	/*使span变成行内块元素,将其横排显示*/
+	display:inline-block;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	/*这个属性允许设置圆角边框,当设置为50%时可得到一个圆形*/
+	border-radius: 50%;
+	/*每个小圆点直接都相距2px*/
+	margin: 0 2px;
+}
+
+.active {
+	/*设置定位为绝对定位*/
+	position: absolute;
+	background-color: pink;
+	top: 21px;
+	left: 356px;
+	/*设置动画,此时粉色小球的动画要与图片保持一致.注:动画名称要改变*/
+	animation:dot1 25s ease-out infinite alternate ;
+}
+
+@keyframes dot1{
+	/*移动的粉色小圆点需要跟图片动画保持一致 所以动画到百分比的时候要保持一致
+	为什么是左移动356 375px 呢？因为我这次用的动画是用定位做的
+	给移动的active小圆点设了绝对定位。*/
+	0% {
+		left:356px ;
+	}
+	25% {
+		left: 375px;
+	}
+	50% {
+		left:  393px;
+	}
+	75% {
+		left: 412px;
+	}
+	100% {
+		left: 431px;
+	}
+}

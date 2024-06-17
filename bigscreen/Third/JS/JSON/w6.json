@@ -1,0 +1,57 @@
+{
+    "data":[{
+        "yData":"1",
+        "yDatadan":1602,
+        "yDataduo":25849
+    },
+    {
+        "yData":"2",
+        "yDatadan":1930,
+        "yDataduo":26956
+    },
+    {
+        "yData":"3",
+        "yDatadan":1981,
+        "yDataduo":26956  
+    },
+    {
+        "yData":"4",
+        "yDatadan":2002,
+        "yDataduo":29020
+    },
+    {
+        "yData":"5",
+        "yDatadan":2016,
+        "yDataduo":29134  
+    },
+    {
+        "yData":"6",
+        "yDatadan":2050,
+        "yDataduo":30033
+    },
+    {
+        "yData":"7",
+        "yDatadan":1882,
+        "yDataduo":30607      
+    },
+    {
+        "yData":"8",
+        "yDatadan":1906,
+        "yDataduo":35250  
+    },
+    {
+        "yData":"9",
+        "yDatadan":2037,
+        "yDataduo":37659  
+    },
+    {
+        "yData":"10",
+        "yDatadan":2265,
+        "yDataduo":38753  
+    }
+
+]
+}
+
+
+

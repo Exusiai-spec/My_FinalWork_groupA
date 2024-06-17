@@ -1,0 +1,57 @@
+{
+    "data":[{
+        "yData":"Ryzen 9 5950X",
+        "yDatadan":1602,
+        "yDataduo":25849
+    },
+    {
+        "yData":"Core i9 12900KF",
+        "yDatadan":1930,
+        "yDataduo":26956
+    },
+    {
+        "yData":"Core i9 12900K",
+        "yDatadan":1981,
+        "yDataduo":26956  
+    },
+    {
+        "yData":"Core i9 12900KS",
+        "yDatadan":2002,
+        "yDataduo":29020
+    },
+    {
+        "yData":"Ryzen 9 7900X",
+        "yDatadan":2016,
+        "yDataduo":29134  
+    },
+    {
+        "yData":"Core i7 13700K",
+        "yDatadan":2050,
+        "yDataduo":30033
+    },
+    {
+        "yData":"Core i7 13700KF",
+        "yDatadan":1882,
+        "yDataduo":30607      
+    },
+    {
+        "yData":"Core i9 13900KF",
+        "yDatadan":1906,
+        "yDataduo":35250  
+    },
+    {
+        "yData":"Ryzen 9 7950X",
+        "yDatadan":2037,
+        "yDataduo":37659  
+    },
+    {
+        "yData":"Core i9 13900K",
+        "yDatadan":2265,
+        "yDataduo":38753  
+    }
+
+]
+}
+
+
+

@@ -1,0 +1,193 @@
+/*newgame属性开头*/
+div.newgame{
+    position: absolute;
+        top: 520px;
+        right: 0;
+        bottom: 0;
+        left: 100px;
+    float: left;
+    width: 375px;
+    height: 200px;
+    background-color: rgba(240, 248, 255, 0);
+    z-index: 0
+}
+#text1{
+    position:absolute;
+    bottom:-50px; 
+    left: 125px;
+    padding:0px; 
+    margin:0px;
+    text-align: center;
+    font-size: 23px;
+}
+#T2{
+    text-align: center;
+    color: rgba(133, 204, 242, 0);
+    background-color: rgba(255, 192, 203, 0);
+}/*防止和导航栏属性撞车*/
+#newgame{
+    position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 450px;
+        height: 216px;
+        z-index: 0;
+}
+/*newgame属性收尾*/
+/*spy属性开头*/
+div.spy{
+    position: absolute;
+        top: 520px;
+        right: 0;
+        bottom: 0;
+        left: 700px;
+    float: left;/*向左浮动,使一行能存在多个div*/
+    width: 375px;
+    height: 200px;
+    background-color: rgba(240, 248, 255, 0);
+    z-index: 0;
+}
+#text2{
+    position:absolute;
+    bottom:-50px; 
+    left: 110px;
+    padding:0px; 
+    margin:0px;
+    text-align: center;
+    font-size: 24px;
+}
+#T3{
+    text-align: center;
+    color: rgba(133, 204, 242, 0);
+    background-color: rgba(255, 192, 203, 0);
+}/*防止和导航栏属性撞车*/
+#spy{
+    position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 450px;
+        height: 216px;
+       
+}
+/*spy属性收尾*/
+
+/*邦邦属性开头*/
+div.bang{
+    position: absolute;
+        top: 520px;
+        right: 0;
+        bottom: 0;
+        right: 200px;
+    float: left;
+    width: 375px;
+    height: 200px;
+    background-color: rgba(240, 248, 255, 0);
+    z-index: 0;
+}
+#text3{
+    position:absolute;
+    bottom:-50px; 
+    left: 150px;
+    padding:0px; 
+    margin:0px;
+    text-align: center;
+    font-size: 24px;
+}
+#T4{
+    text-align: center;
+    color: rgba(133, 204, 242, 0);
+    background-color: rgba(255, 192, 203, 0);
+}
+#bang{
+    position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 450px;
+        height: 216px;
+       
+}
+/*邦邦属性收尾*/
+
+/*星团属性开头*/
+div.keke{
+    position: absolute;
+        top: 815px;
+        right: 0;
+        bottom: 0;
+        left: 400px;
+    float: left;
+    width: 375px;
+    height: 200px;
+    background-color: rgba(240, 248, 255, 0);
+    z-index: 0;
+}
+#text4{
+    position:absolute;
+    bottom:-50px; 
+    left: 120px;
+    padding:0px; 
+    margin:0px;
+    text-align: center;
+    font-size: 24px;
+}
+#T5{
+    text-align: center;
+    color: rgba(133, 204, 242, 0);
+    background-color: rgba(255, 192, 203, 0);
+}/*防止和导航栏属性撞车*/
+#keke{
+    position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 450px;
+        height: 216px;
+        
+}
+/*星团属性收尾*/
+
+/*虹团属性开头*/
+div.ksks{
+    position: absolute;
+        top: 815px;
+        right: 0;
+        bottom: 0;
+        right: 450px;
+    float: left;
+    width: 375px;
+    height: 200px;
+    background-color: rgba(240, 248, 255, 0);
+    z-index: 0;
+}
+#text5{
+    position:absolute;
+    bottom:-85px; 
+    left: 120px;
+    padding:0px; 
+    margin:0px;
+    text-align: center;
+    font-size: 24px;
+}
+#T6{
+    text-align: center;
+    color: rgba(133, 204, 242, 0);
+    background-color: rgba(255, 192, 203, 0);
+}/*防止和导航栏属性撞车*/
+#ksks{
+    position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 450px;
+        height: 216px;
+       
+}
+/*虹团属性收尾*/

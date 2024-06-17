@@ -1,0 +1,172 @@
+<html>
+<title>please log in</title>
+<meta charset="UTF-8">   
+   <style>
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+     
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url(./image/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+     
+.header {
+     width: 400px;
+    height: 350px;
+    border: 10px solid rgba(101, 179, 239, 0.5);
+    background-color: rgba(255, 255, 255, 0.455);
+    background-clip: padding-box;
+    flex-direction: column;
+    margin: 100px  200px;
+    padding: 20px;
+    z-index: -1;
+}/* 背景板 */
+div.header{
+  margin-top: 200px;
+  margin-left:750px ;
+}
+     
+        h2 {
+            font-size: 24px;
+            color: rgb(0, 0, 0);
+        }
+     
+        label {
+            margin-top: 35px;
+            width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+     
+        label>span {
+            font-size: 24px;
+            color: rgb(18, 18, 18);
+        }
+     
+        label>input {
+            border-radius: 20px;
+   border: 1px solid rgb(80, 76, 76);
+  padding: 0 20px;
+      background-color: rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+  outline: none;
+  width: 240px;
+  height: 30px;
+  font-size: 18px;
+        }
+
+        .pwsd {
+            display: flex;
+            margin-top: 35px;
+        }
+     
+        .pwsd>input {
+            width: 24px;
+            height: 24px;
+     
+        }
+     
+        .pwsd>span {
+            font-size: 18px;
+            color: #fff;
+            margin-left: 20px;
+        }
+     
+        button {
+            margin-left: 50px;
+            width: 100px;
+            height: 40px;
+            background: rgba(0, 0, 0, .6);
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            color: #fff;
+     
+        }
+
+        .del {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            width: 325px;
+        }
+        div button:hover {
+  background-color: rgba(255, 192, 203, 0.748);
+}
+    #error_name{
+        margin-left: 100px;
+            width: 200px;
+            height: 10px;
+            background: rgba(255, 255, 255, 0);
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            color: rgb(255, 0, 0);
+            text-align: center;
+        }
+      #error_pwsd{
+        margin-left: 75px;
+        width: 240px;
+        height: 10px;
+        background: rgba(255, 255, 255, 0);
+        border: none;
+        border-radius: 12px;
+        font-size: 18px;
+        color: rgb(255, 0, 0);
+        text-align: center;
+        }       
+        .content {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        top: 675px;
+        left: 85px;
+        width: 400px;
+        height: 170px;
+        border: 10px solid rgba(101, 179, 239, 0.5);
+        background-color: rgba(255, 255, 255, 0.663);
+        background-clip: padding-box;
+        font-size: 20px;
+        text-align: center;
+    }
+    #ps_a_label {
+        color: black;
+    }
+    </style>
+ <script src="./load.js"></script>
+
+    <body>
+        <div class="header">
+            <h2>login</h2>
+            <label for="username"><span>Username：</span><input type="text" id="use" placeholder="username" onblur="checkId()"></label> 
+            <div id="error_name"></div>
+            <br\>
+            <label for="password"><span>Password:&nbsp;&nbsp;</span><input type="password" id="pwd" placeholder="password" onblur="checkPwd()"></label>
+            <div id="error_pwsd"></div>
+            <br\>
+            <div class="pwsd">
+                <input type="checkbox" id="cbx"><span>remember Password</span>
+            </div>
+            <div class="del">
+                <button onclick="login();">login</button>
+                <button><a href="./sign2.html">register</a></button>
+            </div>
+        </div>
+        <section class="content">
+           <a id="ps_a_label">The username is 'Tenderness'</a>
+           <br>
+           <a id="ps_a_label">The password is 'WyX233'</a>
+           <br>
+           <a id="ps_a_label">Sorry, because the registration function has not been implemented, so you can only enter through this account</a>
+        </section>
+    </body>
+
+
+</html>

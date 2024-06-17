@@ -1,0 +1,35 @@
+
+/*背景插入及其属性*/
+  /*导航栏属性*/
+  div{
+    width:1920px;
+    height: 84px;
+    background-color: rgba(255, 255, 255, 0.75);
+    position:fixed;/*固定作用*/
+    top: 3px;
+    z-index: 999;
+   }
+   a{
+    
+    width: 150px;
+    height: 84px;
+    color: rgb(251, 171, 185);
+    text-align: center;
+    line-height: 84px;
+    display: inline-block;/*使元素能够排列在同一行*/
+    text-decoration: none;/*去下划线*/
+    font-size:25px;
+   }
+   
+   img{
+    width: 196;
+    height: 84;
+    margin-top: 0;
+    margin-left: 15px;
+    float: left;
+   }
+   a:hover{
+    color: rgba(133, 204, 242, 0.85);
+    background-color: rgba(255, 192, 203, 0.748);
+   }/*鼠标触碰效果*/
+   /*导航栏属性收尾*/

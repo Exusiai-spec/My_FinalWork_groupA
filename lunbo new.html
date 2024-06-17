@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片展示窗</title>
+    <link rel="stylesheet" href="./shui/img/new lunbo.css">
+    <script src="./check.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="./CSS属性/new daohanglan.css">   
+   <script>      
+    
+    $(document).ready(function(){
+      $(".container").ready(function(){
+        $.ajax({
+                type:"get", //方式
+                url:"./picture.json",  //路径
+                dataType:"json",
+                success:function(data){ //成功后执行的函数
+                    for(var i = 0;i<data.length;i++){
+                //循环,从小加到大
+                        document.getElementById("tupian"+data[i].resource_id).src = data[i].link;
+                    }
+                }
+
+            });
+            return false;
+        });
+    });
+    
+        </script>
+    
+    
+    </head>
+    
+    <body>
+        <div class="ttp">
+            <p id="ttp"></p>
+        </div>
+        <ul>
+            <li><a href="./index.html">Login page</a></li>
+            <li><a href="./myself.html">Personal homepage</a></li>
+            <li><a href="./bigscreen/index.html">Echart window</a></li>
+            <li><a href="./lunbo new.html">Picture display window</a></li>
+            <div class="nav1">
+                <a href="./hobby.html" class="cont">Social Media & Gaming</a>
+            <div class="nav2">
+                <a href="#bilibili">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bilibili&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#Github">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Github&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a id="fztext" href="#pjsk">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Sekai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#steam">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;steam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </div>
+            </div> 
+        </ul>
+        <div class="container">
+            <ul>
+                <li><img id="tupian1" src=""></li>
+                <li><img id="tupian2" src=""></li>
+                <li><img id="tupian3" src=""></li>
+                <li><img id="tupian4" src=""></li>
+                <li><img id="tupian5" src=""></li>
+
+    
+    
+                <li class="big-img"></li>
+                <li class="frame"></li>
+            </ul>
+        </div>
+
+    
+        
+        
+    </body>
+    
+    </html>

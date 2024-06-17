@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>数据可视化</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/index.css"/>
+    <script src="./layui/layui.js"></script>
+<script src="./layui/xadmin.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/echarts.min.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/map/shandong.js"></script>
+<script src="./assets/js/tb.js"></script>
+</head>
+<body>
+<!--头部-->
+
+<div class="header">
+    数据可视化
+    <a href="javascript:;" class="a-access"></a>
+    <a href="../myself.html" class="a-access">
+    <button class="button type1" >
+        back
+    </button></a>
+</div>
+
+<!--主体-->
+<div class="main clearfix">
+    <div class="main-left">
+        <div class="border-container">
+            <div class="name-title"></div>
+            <span class="name-title" >雷达分析图</span>   
+            
+            <script>
+                $(document).ready(function() {
+                    $(".name-title").on("click", function(){
+                        xadmin.open('second','window1.html',800,500)
+                    })
+                })
+            </script>
+            
+            <div id="radar"></div>
+            <span class="top-left border-span"></span>
+            <span class="top-right border-span"></span>
+            <span class="bottom-left border-span"></span>
+            <span class="bottom-right border-span"></span>
+        </div>
+        <div class="border-container">
+            <div class="name-title1"></div>
+                <span class="name-title1" >折线分析图</span> 
+                <script>
+                    $(document).ready(function() {
+                        $(".name-title1").on("click", function(){
+                            xadmin.open('second','window2.html',800,500)
+                        })
+                    })
+                </script>
+            <div id="graduateyear"></div>
+            <ul class="three-pie clearfix">
+                <li>
+                    <div id="sexrate"></div>
+                </li>
+                <li>
+                    <div id="householdrate"></div>
+                </li>
+            </ul>
+            <span class="top-left border-span"></span>
+            <span class="top-right border-span"></span>
+            <span class="bottom-left border-span"></span>
+            <span class="bottom-right border-span"></span>
+        </div>
+    </div>
+    <div class="main-middle">
+        <div class="border-container">
+            <div id="mapadd"></div>
+            <div class="number-show">
+                <ul>
+                    <li>
+                        <span class="span-name">第一标准</span>
+                    </li>
+                    <li>
+                        <span class="span-number-show">653</span>
+                    </li>
+                    <li>
+                        <span class="span-name">第二标准</span>
+                    </li>
+                    <li>
+                        <span class="span-number-show">836252</span>
+                    </li>
+                    <li>
+                        <span class="span-name">第三标准</span>
+                    </li>
+                    <li>
+                        <span class="span-number-show">32162</span>
+                    </li>
+                </ul>
+            </div>
+            <span class="top-left border-span"></span>
+            <span class="top-right border-span"></span>
+            <span class="bottom-left border-span"></span>
+            <span class="bottom-right border-span"></span>
+        </div>
+        <div class="border-container">
+            <ul class="teacher-pie clearfix">
+                <li>
+                    <div class="name-title2"></div>
+                    <span class="name-title2">饼图分析1</span> 
+                    <script>
+                        $(document).ready(function() {
+                            $(".name-title2").on("click", function(){
+                                xadmin.open('second','window3.html',800,500)
+                            })
+                        })
+                    </script>
+                    <div id="courserate"></div>
+                </li>
+                <li>
+                    <div class="name-title3"> </div>
+                        <span class="name-title3">饼图分析2</span> 
+                    <script>
+                        $(document).ready(function() {
+                            $(".name-title3").on("click", function(){
+                                xadmin.open('second','window4.html',800,500)
+                            })
+                        })
+                    </script>
+                   
+                    <div id="professionrate"></div>
+                </li>
+            </ul>
+
+            <div class="name-title4"></div>
+                <span class="name-title4">走势分析</span>
+                <script>
+                    $(document).ready(function() {
+                        $(".name-title4").on("click", function(){
+                            xadmin.open('second','window5.html',800,500)
+                        })
+                    })
+                </script>
+            <div id="changedetail"></div>
+            <span class="top-left border-span"></span>
+            <span class="top-right border-span"></span>
+            <span class="bottom-left border-span"></span>
+            <span class="bottom-right border-span"></span>
+        </div>
+    </div>
+    <div class="main-right">
+        <div class="border-container">
+            <div class="name-title5"></div>
+            <span class="name-title5">汇总表</span>
+            <script>
+                $(document).ready(function() {
+                    $(".name-title5").on("click", function(){
+                        xadmin.open('second','window6.html',800,500)
+                    })
+                })
+            </script>   
+           
+           <table class="table table-kingdargen">
+
+                   <tr id="title" class="ex1">
+                       <th style="color: rgb(120, 186, 245)">title</th>
+                       <th style="color: rgb(120, 186, 245)">test1</th>
+                       <th style="color: rgb(120, 186, 245)">test2</th>
+                       <th style="color: rgb(120, 186, 245)">test3</th>
+                       <th style="color: rgb(120, 186, 245)">test4</th>
+                   </tr>
+              
+           </table>
+            <span class="top-left border-span"></span>
+            <span class="top-right border-span"></span>
+            <span class="bottom-left border-span"></span>
+            <span class="bottom-right border-span"></span>
+        </div>
+        <div class="border-container">
+            <div class="name-title6"></div>
+            <span class="name-title6">数据对比</span>
+            <script>
+                $(document).ready(function() {
+                    $(".name-title6").on("click", function(){
+                        xadmin.open('second','window7.html',800,500)
+                    })
+                })
+            </script>   
+          <div id="juniorservice"></div>
+            <span class="top-left border-span"></span>
+            <span class="top-right border-span"></span>
+            <span class="bottom-left border-span"></span>
+            <span class="bottom-right border-span"></span>
+        </div>
+        <div class="border-container">
+            <div class="name-title7"></div>
+            <span class="name-title7">季度分析</span>
+            <script>
+                $(document).ready(function() {
+                    $(".name-title7").on("click", function(){
+                        xadmin.open('second','window8.html',800,500)
+                    })
+                })
+            </script>
+            <div id="edubalance"></div>
+            <span class="top-left border-span"></span>
+            <span class="top-right border-span"></span>
+            <span class="bottom-left border-span"></span>
+            <span class="bottom-right border-span"></span>
+        </div>
+    </div>
+</div>
+</body>
+
+
+
+</html>

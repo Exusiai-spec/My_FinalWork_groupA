@@ -1,0 +1,117 @@
+.content {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 600px;
+    left: 0;
+    width: 1920px;
+    height: 80px;
+    border: 10px solid rgba(101, 179, 239, 0.5);
+    background-color: rgba(255, 255, 255, 0.663);
+    background-clip: padding-box;
+    font-size: 22px;
+    text-align: center;
+}/*标题边框*/
+
+
+#B{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 350px;
+    width: 1250px;
+    height: 180px;
+    border: 10px solid rgba(101, 179, 239, 0.5);
+    background-color: rgba(255, 255, 255, 0.663);
+    background-clip: padding-box;
+    text-align: center;
+    font-size:40px;
+}  /*前言边框*/
+
+
+#B1{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 50px;
+    width: 1800px;
+    height: 750px;
+    border: 10px solid rgba(101, 179, 239, 0.5);
+    background-color: rgba(255, 255, 255, 0.663);
+    background-clip: padding-box;
+    text-align: center;
+    font-size:40px;
+}/*番剧框*/
+
+#T1{
+    
+    font-size:27px ;
+    text-align: center;
+
+}      
+
+#B2{
+    position: absolute;
+        margin-top: 1210px;
+        margin-left: 350px;
+        width: 1200px;
+        height: 70px;
+        border: 10px solid rgba(101, 179, 239, 0.5);
+        background-color: rgba(255, 255, 255, 0.663);
+        background-clip: padding-box;
+        text-align: center;
+        font-size:40px;
+    }/*游戏扩列框*/
+
+    #B3{
+    position: absolute;
+        margin-top: 1320px;
+        margin-left: 50px;
+        width: 1800px;
+        height: 800px;
+        border: 10px solid rgba(101, 179, 239, 0.5);
+        background-color: rgba(255, 255, 255, 0.663);
+        background-clip: padding-box;
+        text-align: center;
+        font-size:40px;
+    }/*游戏扩列框:原神*/
+
+    /*阴阳师扩列框*/
+    #B4{
+        position: absolute;
+            margin-top: 2200px;
+            margin-left: 50px;
+            width: 1800px;
+            height: 800px;
+            border: 10px solid rgba(101, 179, 239, 0.5);
+            background-color: rgba(255, 255, 255, 0.663);
+            background-clip: padding-box;
+            text-align: center;
+            font-size:40px;
+        }
+
+          /*明日方舟扩列框*/
+    #B5{
+        position: absolute;
+            margin-top: 3100px;
+            margin-left: 50px;
+            width: 1800px;
+            height: 800px;
+            border: 10px solid rgba(101, 179, 239, 0.5);
+            background-color: rgba(255, 255, 255, 0.663);
+            background-clip: padding-box;
+            text-align: center;
+            font-size:40px;
+        }
+
+        #B6{
+            position: absolute;
+                margin-top: 760px;
+                margin-left: -270px;
+                width: 1800px;
+                height: 800px;
+                border: 10px solid rgba(101, 179, 239, 0.5);
+                background-color: rgba(255, 255, 255, 0.663);
+                background-clip: padding-box;
+                text-align: center;
+                font-size:40px;
+            }

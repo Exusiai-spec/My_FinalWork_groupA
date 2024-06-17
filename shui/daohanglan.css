@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}/*取消li自带小圆点及自带边距*/
+html {
+    scroll-behavior: smooth;
+  }/*平滑滚动*/
+
+  
+ul.dao{
+    width:1920px;
+    height: 84px;
+    background-color: rgba(255, 255, 255,0.95);
+    position:fixed;/*固定作用*/
+    top: -10px;
+    z-index: 999;
+    line-height: 84px;
+}/* 对导航栏的整体样式进行设置 */
+ul.dao li.d{
+    list-style: none;
+    float: left;
+}/* 删除列表的样式并设置浮动 */
+a{
+    color: rgb(80, 175, 226);
+    padding: 25px;
+    margin: 0px;
+    text-decoration: none;/*去下划线*/
+    font-size:26px;
+}/* 设置a标签的样式 */
+
+.nav1 {
+    position: relative;/* 设置相对定位 */
+    display: inline-block;/* 让元素具有块级元素和行内元素的特性,即将块级元素转化为内联元素 */
+}
+
+.nav2 {
+    display: none;/* 将某元素隐藏起来 */
+    position: absolute;/* 绝对定位 */
+    background-color:rgba(255, 255, 255);
+    min-width: 81px;/* 最小宽度 */
+    text-align: center;
+}
+
+.nav2 a {
+    color: black;
+
+    padding: 12px 33px；
+    
+   /* 将a标签设置为块级标签 */
+}
+
+.nav2 li:hover {
+    background-color: rgba(255, 192, 203, 0.748);
+    
+}/* 鼠标悬浮时的颜色 */
+
+.nav1:hover .nav2 {
+    display: block;/*使元素能够排列在同一行*/
+}/* 鼠标悬浮在元素上时,变为块级标签 */
+
+.nav1:hover,a:hover{
+    
+    background-color: rgba(255, 192, 203, 0.748);
+}
+
+
+#fztext{
+    text-align: center;
+    font-size: 21px;
+}

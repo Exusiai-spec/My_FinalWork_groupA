@@ -1,0 +1,14 @@
+{
+    "data": [{
+        "value": 335,
+        "name": "test1"
+    },
+    {
+        "value": 310,
+        "name": "test2"
+    },
+    {
+        "value": 234,
+        "name": "test3"
+    }]
+}

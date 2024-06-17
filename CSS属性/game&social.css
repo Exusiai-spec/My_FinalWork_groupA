@@ -1,0 +1,369 @@
+ /*原神扩列开头*/
+ #bilibili{
+    position: absolute;
+        top: 10px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 180px;
+        height:120px;
+       
+    }
+    div.bilibili{
+    position: absolute;
+        top: 1355px;
+        right: 1450px;
+        bottom: 0;
+    float: left;
+    width: 375px;
+    height: 200px;
+    background-color: rgba(240, 248, 255, 0);
+    z-index: 0;
+    }/*bilibili图片属性*/
+
+    #text6{
+    position:absolute;
+    top:0px; 
+    left: 200px;
+    padding:0px; 
+    margin:0px;
+    text-align: center;
+    font-size: 40px;
+}
+    #T7{
+    text-align: center;
+    color: rgba(133, 204, 242, 0);
+    background-color: rgba(255, 192, 203, 0);
+   }/*防止和导航栏属性撞车*/
+   /*bilibili属性结尾*/
+   /*id主页*/
+   #bilibiliUid{
+    position: absolute;
+        top: -80px;
+        right: 0;
+        bottom: 0;
+        left: 50px;
+        width: 1200px;
+        height:600px;
+    }
+    div.bilibiliUid{
+    position: absolute;
+        top: 1495px;
+        right: 850px;
+        bottom: 0;
+    float: left;
+    width: 727px;
+    height: 450px;
+    background-color: rgba(240, 248, 255, 0);
+    z-index: 0;
+    }/*bilibili主页图片属性*/
+
+    #text7{
+    position:absolute;
+    bottom:-60px; 
+    left: 230px;
+    padding:0px; 
+    margin:0px;
+    text-align: center;
+    font-size: 40px;
+    }
+    #text8{
+    position:absolute;
+    bottom:-170px; 
+    left: 510px;
+    padding:0px; 
+    margin:0px;
+    text-align: center;
+    font-size: 40px;
+}
+    #T8{
+    text-align: center;
+    color: rgba(133, 204, 242, 0);
+    background-color: rgba(255, 192, 203, 0);
+   }/*防止和导航栏属性撞车*/
+   /*bilibilii主页属性结尾*/
+
+
+    /*bilibili结尾*/
+
+    div.Github{
+        position: absolute;
+            top: 2235px;
+            right: 1450px;
+            bottom: 0;
+        float: left;
+        width: 375px;
+        height: 200px;
+        background-color: rgba(240, 248, 255, 0);
+        z-index: 0;
+        }/*github图片属性*/
+        #Github{
+            position: absolute;
+            top: 10px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 180px;
+            height:120px;
+        }
+        #text10{
+        position:absolute;
+        display: inline-block;
+        top:0px; 
+        left: 200px;
+        padding:0px; 
+        margin:0px;
+        text-align: center;
+        font-size: 40px;
+    }
+        #T10{
+        text-align: center;
+        color: rgba(133, 204, 242, 0);
+        background-color: rgba(255, 192, 203, 0);
+        
+       }/*防止和导航栏属性撞车*/
+       /*github属性结尾*/
+       div.GithubId{
+        position: absolute;
+            top:2375px;
+            right: 850px;
+            bottom: 0;
+        float: left;
+        width: 727px;
+        height: 450px;
+        background-color: rgba(240, 248, 255, 0);
+        z-index: 0;
+        }/*阴阳师主页图片属性*/
+    
+        #GithubId{
+        position: absolute;
+            top: -80px;
+            left: 30px;
+            width: 1200px;
+            height:600px;
+        }
+        #text11{
+        position:absolute;
+        bottom:-180px; 
+        left: 460px;
+        padding:0px; 
+        margin:0px;
+        text-align: center;
+        font-size: 40px;
+        }
+        #text12{
+        position:absolute;
+        bottom:-100px; 
+        left: 220px;
+        padding:0px; 
+        margin:0px;
+        text-align: center;
+        font-size: 40px;
+        }
+        #T11{
+        text-align: center;
+        color: rgba(133, 204, 242, 0);
+        background-color: rgba(255, 192, 203, 0);
+       }/*防止和导航栏属性撞车*/
+
+    /*Github收尾*/
+       div.pjsk{
+        position: absolute;
+            top: 3140px;
+            right: 1410px;
+            bottom: 0;
+        float: left;
+        width: 400px;
+        height: 200px;
+        background-color: rgba(240, 248, 255, 0);
+        z-index: 0;
+        }/*pjsk图片属性*/
+        #pjsk{
+            position: absolute;
+            top: 10px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 180px;
+            height:180px;
+        }
+        #text13{
+        position:absolute;
+        top:665px; 
+        left: 225px;
+        padding:0px; 
+        margin:0px;
+        text-align: center;
+        font-size: 40px;
+    }
+        #T12{
+        text-align: center;
+        color: rgba(133, 204, 242, 0);
+        background-color: rgba(255, 192, 203, 0);
+        
+       }/*防止和导航栏属性撞车*/
+       /*pjsk属性结尾*/
+       div.pjskzhuye{
+        position: absolute;
+            top:3200px;
+            right: 850px;
+            bottom: 0;
+        float: left;
+        width: 727px;
+        height: 450px;
+        background-color: rgba(240, 248, 255, 0);
+        z-index: 0;
+        }/*pjsk主页图片属性*/
+    
+        #pjskzhuye{
+        position: absolute;
+            bottom: -180px;
+            left: 250px;
+            width: 900px;
+            height:650px;
+        }
+       
+        #text14{
+        position:absolute;
+        bottom:-240px; 
+        left: 460px;
+        padding:0px; 
+        margin:0px;
+        text-align: center;
+        font-size: 40px;
+        }
+        #text15{
+            position:absolute;
+            bottom:-150px; 
+            left: 220px;
+            padding:0px; 
+            margin:0px;
+            text-align: center;
+            font-size: 40px;
+            }
+        #T13{
+        text-align: center;
+        display: inline-block;
+        color: rgba(133, 204, 242, 0);
+        background-color: rgba(255, 192, 203, 0);
+       }/*防止和导航栏属性撞车*/
+       /*pjsk收尾*/
+
+       
+    div.steam{
+        position: absolute;
+            top: 820px;
+            right: 600px;
+            bottom: 0;
+        float: left;
+        width: 375px;
+        height: 375px;
+        background-color: rgba(240, 248, 255, 0);
+        z-index: 0;
+        }/*steam图片属性*/
+        #steam{
+            position: absolute;
+            top: 10px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 180px;
+            height:180px;
+        }
+        #text16{
+        position:absolute;
+        top:0px; 
+        left: 200px;
+        padding:0px; 
+        margin:0px;
+        text-align: center;
+        font-size: 40px;
+    }
+        #T14{
+        text-align: center;
+        color: rgba(133, 204, 242, 0);
+        background-color: rgba(255, 192, 203, 0);
+        
+       }/*防止和导航栏属性撞车*/
+       /*图标属性结尾*/
+       div.steamzy{
+        position: absolute;
+            top:900px;
+            right: 0px;
+            bottom: 0;
+        float: left;
+        width: 727px;
+        height: 450px;
+        background-color: rgba(240, 248, 255, 0);
+        z-index: 0;
+        }/*steam主页图片属性*/
+    
+        #steamzy{
+        position: absolute;
+            top: 10px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 727px;
+            height:436px;
+        }
+        #text17{
+        position:absolute;
+        bottom:-60px; 
+        left: 230px;
+        padding:0px; 
+        margin:0px;
+        text-align: center;
+        font-size: 40px;
+        }
+        #text18{
+        position:absolute;
+        top: 520px; 
+        left: 200px;
+        padding:0px; 
+        margin:0px;
+        text-align: center;
+        font-size: 40px;
+        }
+        #T15{
+        text-align: center;
+        color: rgba(133, 204, 242, 0);
+        background-color: rgba(255, 192, 203, 0);
+       }/*防止和导航栏属性撞车*/
+       /*steam个人主页收尾*/
+       div.game{
+        position: absolute;
+            top:850px;
+            left: 775px;
+            bottom: 0;
+        float: left;
+        width: 727px;
+        height: 1000px;
+        background-color: rgba(240, 248, 255, 0);
+        z-index: 0;
+        }/*steam游戏窗属性*/
+    
+        #DPX5{
+        position: absolute;
+            top: 100px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 729px;
+            height:357px;
+        }
+        #text19{
+        position:absolute;
+        bottom:475px; 
+        left: 130px;
+        padding:0px; 
+        margin:0px;
+        text-align: center;
+        font-size: 35px;
+        }
+        #T16{
+        text-align: center;
+        color: rgba(133, 204, 242, 0);
+        background-color: rgba(255, 192, 203, 0);
+       }/*防止和导航栏属性撞车*/
+       /*steam收尾*/

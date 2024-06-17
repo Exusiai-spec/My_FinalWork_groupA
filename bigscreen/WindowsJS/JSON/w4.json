@@ -1,0 +1,38 @@
+{
+    "data":[{
+        "xData":"11.19",
+        "yDatabe":33,
+        "yDatadle":15
+    },
+    {
+        "xData":"11.18",
+        "yDatabe":30,
+        "yDatadle":0
+    },
+    {
+        "xData":"11.17",
+        "yDatabe":29,
+        "yDatadle":7 
+    },
+    {
+        "xData":"11.16",
+        "yDatabe":23,
+        "yDatadle":9
+    },
+    {
+        "xData":"11.15",
+        "yDatabe":30,
+        "yDatadle":5  
+    },
+    {
+        "xData":"11.14",
+        "yDatabe":24,
+        "yDatadle":12
+    },
+    {
+        "xData":"11.13",
+        "yDatabe":31,
+        "yDatadle":13      
+    }
+]
+}
